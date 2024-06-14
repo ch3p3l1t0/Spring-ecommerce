@@ -35,3 +35,10 @@ commit 37
 commit 40
  Funcionalidad para buscar productos
 ![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/f057af33-3298-4bf0-8e3e-6dffe485eaa3)
+
+commit 43
+Funcionalidad registro de usuario
+![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/28a78411-6df3-40a7-b819-6d30a99bff1e)
+![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/95dd0aca-3ea5-4da5-af31-83202e770cef)
+
+
