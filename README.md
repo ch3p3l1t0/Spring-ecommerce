@@ -10,3 +10,7 @@ Crear la vista crear Producto y el menú para el administrador
 Commit 13 
 Implementacion de la funcionalidad mostrar productos administrador
 ![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/ff0765b6-95df-4874-b0f2-151a1a1d9d56)
+
+commit 21 
+Mostrar los productos en la home del administrador
+![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/68eac27a-a153-4fcf-9436-ce4f38b29281)
