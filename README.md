@@ -32,3 +32,6 @@ commit 37
  Funcionalidad para guardar la orden
 ![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/c80b627c-5e23-455b-9bbe-e7eb663a3171)
 
+commit 40
+ Funcionalidad para buscar productos
+![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/f057af33-3298-4bf0-8e3e-6dffe485eaa3)
