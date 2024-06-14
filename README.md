@@ -6,3 +6,7 @@ Primer commit vista del administrador
 commit 7
 Crear la vista crear Producto y el menú para el administrador
 ![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/5523869c-2008-4c38-9f4a-aaef03f33f8d)
+
+Commit 13 
+Implementacion de la funcionalidad mostrar productos administrador
+![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/ff0765b6-95df-4874-b0f2-151a1a1d9d56)
