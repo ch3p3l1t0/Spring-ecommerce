@@ -180,13 +180,10 @@ public class HomeController {
 	}
 
 	@PostMapping("/search")
-public String searchProduct(@RequestParam String nombre, Model model) {
-    log.info("Nombre del producto: {}", nombre);
-    String nombreEnMinusculas = nombre.toLowerCase(); // Convertir a minúsculas
-    List<Producto> productos = productoService.findAll().stream().filter(p -> p.getNombre().contains(nombreEnMinusculas))
-            .collect(Collectors.toList());
-    model.addAttribute("productos", productos);
-    return "usuario/home";
-}
-
+	public String searchProduct(@RequestParam String nombre, Model model) {
+		log.info("Nombre del producto: {}", nombre);
+		List<Producto> productos= productoService.findAll().stream().filter( p -> p.getNombre().contains(nombre)).collect(Collectors.toList());
+		model.addAttribute("productos", productos);		
+		return "usuario/home";
+	}
 }
