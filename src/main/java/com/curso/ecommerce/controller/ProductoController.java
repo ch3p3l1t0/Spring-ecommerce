@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.curso.ecommerce.model.Producto;
 import com.curso.ecommerce.model.Usuario;
 import com.curso.ecommerce.service.ProductoService;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @Controller
 @RequestMapping("/productos")
@@ -59,5 +61,12 @@ public class ProductoController {
         productoService.update(producto);
         return "redirect:/productos";
     }
+
+    @GetMapping("/delete/{id}")
+    public String delete(@PathVariable Integer id) {
+        productoService.delete(id);
+        return "redirect:/productos";
+    }
+    
 
 }
