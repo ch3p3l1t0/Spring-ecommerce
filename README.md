@@ -19,3 +19,6 @@ commit 25
 Mostrar los datos del producto en otra vista
 ![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/43162b8c-e9a1-470c-90cf-40ad8f331b8d)
 
+commit 27 
+Mostrar los productos en la vista carrito y sumar los productos
+![image](https://github.com/ch3p3l1t0/Spring-ecommerce/assets/78379421/548ce9fd-a4a6-4f8e-913a-b8496b5f4a7e)
