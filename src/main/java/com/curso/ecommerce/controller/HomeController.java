@@ -20,6 +20,8 @@ import com.curso.ecommerce.model.Orden;
 import com.curso.ecommerce.model.Producto;
 import com.curso.ecommerce.service.ProductoService;
 
+import jakarta.servlet.http.HttpSession;
+
 @Controller
 @RequestMapping("/")
 public class HomeController {
@@ -111,5 +113,16 @@ public class HomeController {
 		model.addAttribute("orden", orden);
 
 		return "usuario/carrito";
+	}
+
+    @GetMapping("/getCart")
+	public String getCart(Model model, HttpSession session) {
+		
+		model.addAttribute("cart", detalles);
+		model.addAttribute("orden", orden);
+		
+		//sesion
+		model.addAttribute("sesion", session.getAttribute("idusuario"));
+		return "/usuario/carrito";
 	}
 }
